@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'us-cdbr-east-03.cleardb.com',
+	'hostname' => '127.0.0.1',
 	'username' => 'bffc80737eef52',
 	'password' => 'a3f2eeae',
 	'database' => 'step_tracker',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
